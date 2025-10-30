@@ -10,8 +10,7 @@ class Solution {
             discount= Math.round(price * 0.1);
             result -= (int) discount;
             return result;
-        }
-        if (price >= 100_000 ) {
+        }else if (price >= 100_000 ) {
             discount= Math.round(price * 0.05);
             result -= (int) discount;
             return result;
